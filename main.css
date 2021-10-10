@@ -95,7 +95,8 @@ caption {
     }
     .container{
         width: 95vw;
-        margin: 2rem auto;
-        
+    }
+    th,td{
+       padding: 5px;
     }
   }
