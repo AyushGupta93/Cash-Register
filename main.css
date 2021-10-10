@@ -1,0 +1,82 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+:root {
+    --primary-color: #EEEEEE;
+    --bg-color: #222831;
+}
+
+body {
+    font-family: 'Montserrat', sans-serif;
+}
+
+.container {
+    color: var(--primary-color);
+    padding: 1rem;
+    text-align: center;
+    margin: 2rem auto;
+    width: 65vh;
+    height: 90vh;
+    background-color: var(--bg-color);
+    border-radius: 10px;
+    box-shadow: 20px 20px 20px grey;
+}
+
+.container p{
+    margin-top: 1rem;
+}
+label {
+    padding: 0.5rem 0rem;
+    display: block;
+}
+
+input {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: bold;
+    padding: 0.3rem;
+    border: 3px solid purple;
+    border-radius: 8px;
+}
+
+button {
+    display: block;
+    padding: 0.5rem 2rem;
+    margin: 1rem auto;
+    border-radius: 8px;
+    background-color: var(--primary-color);
+    color: var(--bg-color);
+    border: none;
+    box-shadow: 3px 17px 22px black;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: bold;
+}
+
+button:hover {
+    color: var(--primary-color);
+    background: purple;
+}
+
+table {
+    margin-top: 2rem;
+    width: 100%;
+    border-collapse: collapse;
+    border: 3px solid purple;
+    line-height: 1rem;
+}
+
+th,
+td {
+    padding: 7px;
+    text-align: center;
+    border-left:3px solid purple ;
+    border-bottom: 3px solid purple;
+}
+
+caption {
+    padding: 1rem;
+}
